@@ -1,4 +1,4 @@
-# Update all_ChinaIP
+# Update all_ChinaIP_List
 :local url "http://get.itsanni.com/allchina/all_china.rsc"
 :local filename "all_china.rsc"
 /tool fetch mode=http url=$url
