@@ -1,5 +1,4 @@
 #ALL_China   2024-01-23-12
-#WWW.TCP5.COM  Metro  QQ群:122744483
 #
 /ip firewall address-list
 add address=1.1.8.0/24 comment="" disabled=no list=List_ALL_China
