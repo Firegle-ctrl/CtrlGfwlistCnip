@@ -1,0 +1,14 @@
+# update Gfwlist_domain
+:local url "http://get.sunny.work/gfwlist/gfwlist_domain.rsc"
+:local filename "gfwlist_domain.rsc"
+
+/tool fetch mode=http url=$url
+:delay 10;
+:if ([:len [/file find name=$filename]]) do={
+  /import $filename
+:delay 10;
+  /file remove $filename
+  :log info "import $filename success!"
+} else={
+  :log war "file $filename is not exist!"
+}
