@@ -1,5 +1,5 @@
 # update Gfwlist_domain
-:local url "http://get.sunny.work/gfwlist/gfwlist_domain.rsc"
+:local url "http://get.itsanni.com/gfwlist/gfwlist_domain.rsc"
 :local filename "gfwlist_domain.rsc"
 
 /tool fetch mode=http url=$url
