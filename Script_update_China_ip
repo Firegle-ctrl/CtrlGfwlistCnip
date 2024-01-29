@@ -1,5 +1,5 @@
 # Update all_ChinaIP
-:local url "http://get.sunny.work/allchina/all_china.rsc"
+:local url "http://get.itsanni.com/allchina/all_china.rsc"
 :local filename "all_china.rsc"
 /tool fetch mode=http url=$url
 :log info "all_china.rsc downloaded."
