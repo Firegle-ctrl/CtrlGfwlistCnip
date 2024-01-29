@@ -1,5 +1,4 @@
 #ALL_China   2024-01-29-11
-#
 /ip firewall address-list remove [/ip firewall address-list find list=List_ALL_China]
 /ip firewall address-list
 add address=1.1.8.0/24 comment="" disabled=no list=List_ALL_China
