@@ -1,0 +1,15 @@
+# Update all_ChinaIP
+:local url "http://get.sunny.work/allchina/all_china.rsc"
+:local filename "all_china.rsc"
+/tool fetch mode=http url=$url
+:log info "all_china.rsc downloaded."
+:delay 10;
+:if ([:len [/file find name=$filename]]) do={
+  /import $filename
+:log info "ChinaIp address list updated! start remove $filename"
+:delay 10;
+  /file remove $filename
+  :log info "import $filename success!"
+} else={
+  :log war "file $filename is not exist!"
+}
