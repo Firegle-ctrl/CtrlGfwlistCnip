@@ -1,1 +1,1 @@
-# https://github.com/itsanni
+# github.com/itsanni
