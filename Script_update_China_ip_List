@@ -1,5 +1,5 @@
 # Update all_ChinaIP_List
-:local url "http://get.itsanni.com/allchina/all_chinaList.rsc"
+:local url "https://github.com/itsanni/git/blob/main/all_chinaList.rsc"
 :local filename "all_chinaList.rsc"
 /tool fetch mode=http url=$url
 :log info "all_chinaList.rsc downloaded."
