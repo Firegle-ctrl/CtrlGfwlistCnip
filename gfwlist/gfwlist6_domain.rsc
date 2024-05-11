@@ -1,4 +1,4 @@
-# Gfwlist 更新至 2024-05-11
+# Gfwlist6 更新至 2024-05-11
 :local gfwdns 8.8.8.8
 :local comment Gfwlist
 :local ttl 30m
