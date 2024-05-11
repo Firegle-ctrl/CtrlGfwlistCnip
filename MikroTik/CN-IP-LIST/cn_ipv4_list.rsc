@@ -3,7 +3,6 @@
 :local timeout 0
 :local comment CN
 :local list CN
-/ip firewall address-list remove [/ip firewall address-list find list=$list]
 /ip firewall address-list
 :do { add address=1.0.1.0/24 list=$list timeout=$timeout comment=$comment } on-error={}
 :do { add address=1.0.2.0/23 list=$list timeout=$timeout comment=$comment } on-error={}
