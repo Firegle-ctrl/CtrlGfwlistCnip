@@ -1,4 +1,4 @@
-# Gfwlist7 更新至 2024-05-11
+# Gfwlist7 更新至 2024-05-16
 :local gfwdns 8.8.8.8
 :local comment Gfwlist
 :local list 
@@ -941,6 +941,7 @@
 :do { add name=channelnewsasia.com comment=$comment type=FWD forward-to=$gfwdns match-subdomain=yes address-list=$list } on-error={};
 :do { add name=chaoex.com comment=$comment type=FWD forward-to=$gfwdns match-subdomain=yes address-list=$list } on-error={};
 :do { add name=chapm25.com comment=$comment type=FWD forward-to=$gfwdns match-subdomain=yes address-list=$list } on-error={};
+:do { add name=chatgpt.com comment=$comment type=FWD forward-to=$gfwdns match-subdomain=yes address-list=$list } on-error={};
 :do { add name=chatnook.com comment=$comment type=FWD forward-to=$gfwdns match-subdomain=yes address-list=$list } on-error={};
 :do { add name=chaturbate.com comment=$comment type=FWD forward-to=$gfwdns match-subdomain=yes address-list=$list } on-error={};
 :do { add name=checkgfw.com comment=$comment type=FWD forward-to=$gfwdns match-subdomain=yes address-list=$list } on-error={};
