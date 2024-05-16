@@ -1,4 +1,4 @@
-# All China IP 更新至 2024-05-11
+# All China IP 更新至 2024-05-16
 /log info "Loading CN ipv4 address list"
 /ip firewall address-list
 :do { add address=1.0.1.0/24 list=CN comment=CN } on-error={};
@@ -6242,6 +6242,8 @@
 :do { add address=159.27.0.0/16 list=CN comment=CN } on-error={};
 :do { add address=159.75.0.0/16 list=CN comment=CN } on-error={};
 :do { add address=159.226.0.0/16 list=CN comment=CN } on-error={};
+:do { add address=160.19.76.0/23 list=CN comment=CN } on-error={};
+:do { add address=160.19.82.0/23 list=CN comment=CN } on-error={};
 :do { add address=160.19.208.0/22 list=CN comment=CN } on-error={};
 :do { add address=160.19.212.0/22 list=CN comment=CN } on-error={};
 :do { add address=160.19.216.0/22 list=CN comment=CN } on-error={};
