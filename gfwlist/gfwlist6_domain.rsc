@@ -1,4 +1,4 @@
-# Gfwlist6 更新至 2024-05-11
+# Gfwlist6 更新至 2024-05-17
 :local gfwdns 8.8.8.8
 :local comment Gfwlist
 :local ttl 30m
@@ -941,6 +941,7 @@ add regexp="(\\.|^)changsa\\.net\$" comment=$comment type=FWD ttl=$ttl forward-t
 add regexp="(\\.|^)channelnewsasia\\.com\$" comment=$comment type=FWD ttl=$ttl forward-to=$gfwdns
 add regexp="(\\.|^)chaoex\\.com\$" comment=$comment type=FWD ttl=$ttl forward-to=$gfwdns
 add regexp="(\\.|^)chapm25\\.com\$" comment=$comment type=FWD ttl=$ttl forward-to=$gfwdns
+add regexp="(\\.|^)chatgpt\\.com\$" comment=$comment type=FWD ttl=$ttl forward-to=$gfwdns
 add regexp="(\\.|^)chatnook\\.com\$" comment=$comment type=FWD ttl=$ttl forward-to=$gfwdns
 add regexp="(\\.|^)chaturbate\\.com\$" comment=$comment type=FWD ttl=$ttl forward-to=$gfwdns
 add regexp="(\\.|^)checkgfw\\.com\$" comment=$comment type=FWD ttl=$ttl forward-to=$gfwdns
