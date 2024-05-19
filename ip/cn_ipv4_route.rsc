@@ -1,4 +1,4 @@
-# All China IP 更新至 2024-05-16
+# All China IP 更新至 2024-05-19
 /log info "Loading CN ipv4 address routing"
 /routing table add name=CN fib disabled=no
 /routing rule
@@ -770,7 +770,6 @@
 :do { add dst-address=43.242.16.0/21 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=43.242.24.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=43.242.28.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
-:do { add dst-address=43.242.44.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=43.242.48.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=43.242.52.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=43.242.56.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
@@ -2467,7 +2466,6 @@
 :do { add dst-address=103.37.208.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.37.212.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.37.216.0/21 action=lookup disabled=no table=CN comment=CN } on-error={};
-:do { add dst-address=103.37.248.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.37.252.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.38.0.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.38.32.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
@@ -6248,6 +6246,8 @@
 :do { add dst-address=160.19.208.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.19.212.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.19.216.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
+:do { add dst-address=160.20.16.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
+:do { add dst-address=160.20.18.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.20.48.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.202.60.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.202.148.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
