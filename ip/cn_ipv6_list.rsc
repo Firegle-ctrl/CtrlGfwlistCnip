@@ -1,4 +1,4 @@
-# All China IP 更新至 2024-05-19
+# All China IP 更新至 2024-05-27
 /log info "Loading CN ipv6 address list"
 /ipv6 firewall address-list
 :do { add address=2001:250::/35 list=CN comment=CN } on-error={};
@@ -578,6 +578,7 @@
 :do { add address=2401:9fa0::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:a140::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:a180::/32 list=CN comment=CN } on-error={};
+:do { add address=2401:a2e0::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:a340::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:a3c0::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:a4c0::/32 list=CN comment=CN } on-error={};
@@ -635,7 +636,6 @@
 :do { add address=2401:e240::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:e2c0::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:e340::/32 list=CN comment=CN } on-error={};
-:do { add address=2401:e6c0::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:e840::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:e8c0::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:e940::/32 list=CN comment=CN } on-error={};
@@ -671,7 +671,6 @@
 :do { add address=2402:24c0::/32 list=CN comment=CN } on-error={};
 :do { add address=2402:2540::/32 list=CN comment=CN } on-error={};
 :do { add address=2402:2640::/32 list=CN comment=CN } on-error={};
-:do { add address=2402:27c0::/32 list=CN comment=CN } on-error={};
 :do { add address=2402:2a00::/32 list=CN comment=CN } on-error={};
 :do { add address=2402:2b80::/32 list=CN comment=CN } on-error={};
 :do { add address=2402:2bc0::/32 list=CN comment=CN } on-error={};
