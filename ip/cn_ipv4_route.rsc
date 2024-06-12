@@ -1,4 +1,4 @@
-# All China IP 更新至 2024-05-27
+# All China IP 更新至 2024-06-12
 /log info "Loading CN ipv4 address routing"
 /routing table add name=CN fib disabled=no
 /routing rule
@@ -3823,7 +3823,6 @@
 :do { add dst-address=103.138.156.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.138.208.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.138.220.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
-:do { add dst-address=103.138.246.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.138.248.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.139.0.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=103.139.2.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
@@ -6249,6 +6248,8 @@
 :do { add dst-address=160.20.18.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.20.48.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.20.130.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
+:do { add dst-address=160.22.58.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
+:do { add dst-address=160.22.82.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.202.60.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.202.148.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.202.152.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
