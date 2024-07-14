@@ -1,4 +1,4 @@
-# All China IP 更新至 2024-07-05
+# All China IP 更新至 2024-07-14
 /log info "Loading CN ipv6 address list"
 /ipv6 firewall address-list
 :do { add address=2001:250::/35 list=CN comment=CN } on-error={};
@@ -602,6 +602,7 @@
 :do { add address=2401:afa0::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:b040::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:b180::/32 list=CN comment=CN } on-error={};
+:do { add address=2401:b220::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:b340::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:b400::/32 list=CN comment=CN } on-error={};
 :do { add address=2401:b480::/32 list=CN comment=CN } on-error={};
