@@ -1,4 +1,4 @@
-# All China IP 更新至 2024-07-16
+# All China IP 更新至 2024-07-19
 /log info "Loading CN ipv4 address routing"
 /routing table add name=CN fib disabled=no
 /routing rule
