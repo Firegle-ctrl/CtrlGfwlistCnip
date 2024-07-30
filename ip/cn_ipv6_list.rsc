@@ -1,4 +1,4 @@
-# All China IP 更新至 2024-07-28
+# All China IP 更新至 2024-07-30
 /log info "Loading CN ipv6 address list"
 /ipv6 firewall address-list
 :do { add address=2001:250::/35 list=CN comment=CN } on-error={};
