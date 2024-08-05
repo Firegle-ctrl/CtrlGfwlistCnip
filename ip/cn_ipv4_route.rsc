@@ -1,4 +1,4 @@
-# All China IP 更新至 2024-07-30
+# All China IP 更新至 2024-08-05
 /log info "Loading CN ipv4 address routing"
 /routing table add name=CN fib disabled=no
 /routing rule
@@ -6257,6 +6257,7 @@
 :do { add dst-address=160.25.12.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.25.20.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.25.194.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
+:do { add dst-address=160.30.40.0/23 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.202.60.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.202.148.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
 :do { add dst-address=160.202.152.0/22 action=lookup disabled=no table=CN comment=CN } on-error={};
