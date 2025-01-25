@@ -1,1 +1,1 @@
-https://github.com/Firegle-ctrl/git
+https://github.com/Firegle-ctrl/CtrlGfwlistCnip
